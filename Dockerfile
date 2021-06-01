@@ -1,4 +1,4 @@
-FROM archlinux/base:latest
+FROM docker.io/library/archlinux:base-devel
 
 RUN pacman -Syu --noconfirm base-devel namcap
 
