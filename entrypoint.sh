@@ -18,6 +18,6 @@ echo "Running makepkg"
 
 su builder --command='makepkg -fs ./PKGBUILD'
 
-echo "Running namcap"
+#echo "Running namcap"
 
-namcap -i *.pkg.tar.xz
+#namcap -i *.pkg.tar.xz
